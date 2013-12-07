@@ -468,4 +468,12 @@
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
   <project path="vendor/tmobile/providers/ThemeManager" name="CyanogenMod/android_vendor_tmobile_providers_ThemeManager" />
+<!--Device tree -->
+<project name="madridii/android_device_samsung_ancora" path="device/samsung/ancora" remote="gh" revision="cm-11" />
+<!--Vendor files -->
+<project name="arco/android_vendor_samsung_ancora" path="vendor/samsung/ancora" remote="gh" revision="cm-10.2" />
+<!--Legacy stuff -->
+  <project name="madridii/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" remote="gh" revision="cm-11.0" />
+  <project name="madridii/android_hardware_qcom_media-legacy" path="hardware/qcom/media-legacy" remote="gh" revision="cm-11.0" />
+  
 </manifest>
